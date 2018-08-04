@@ -1,0 +1,4 @@
+#!/usr/bin/sh
+
+tmux new-session -s 'test' 'vim' \; \
+split-window -h \;
